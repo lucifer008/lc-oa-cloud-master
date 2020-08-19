@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan("com.lovnx.mapper")
+@MapperScan("com.lecar.mapper")
 public class SqlSessionFactoryConfig implements TransactionManagementConfigurer {
 
     @Autowired
