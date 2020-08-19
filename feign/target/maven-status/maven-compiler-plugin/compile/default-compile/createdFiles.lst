@@ -1,0 +1,3 @@
+com\feign\FeignApplication.class
+com\feign\client\FeignController.class
+com\feign\client\TestFeignClient.class

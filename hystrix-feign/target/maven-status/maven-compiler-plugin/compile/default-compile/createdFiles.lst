@@ -1,0 +1,4 @@
+com\feign_hystrix\feign\TestFeignClient$HystrixClientFallback.class
+com\feign_hystrix\feign\FeignController.class
+com\feign_hystrix\FeignHystrixApplication.class
+com\feign_hystrix\feign\TestFeignClient.class
