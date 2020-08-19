@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/feign-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/feign-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/feign-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/feign-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/target/hystrix-dashboard-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-dashboard/target/hystrix-dashboard-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/target/hystrix-dashboard-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-dashboard/target/hystrix-dashboard-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/target/hystrix-feign-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-feign/target/hystrix-feign-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/target/hystrix-feign-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-feign/target/hystrix-feign-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/target/hystrix-ribbon-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-ribbon/target/hystrix-ribbon-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/target/hystrix-ribbon-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-ribbon/target/hystrix-ribbon-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-B2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-B2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/target/service-B2-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-B2/target/service-B2-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/target/service-B2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-B2/target/service-B2-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/target/sleuth-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth/target/sleuth-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/target/sleuth-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth/target/sleuth-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/target/turbine-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/target/turbine-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/target/turbine-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/target/turbine-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/turbine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/turbine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,35 +53,35 @@
   <component name="RunManager" selected="Spring Boot.B_Application">
     <configuration name="A_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-A" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.A_Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.A_Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="B2_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-B2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.B2_Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.B2_Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="B_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-B" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.B_Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.B_Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.ConfigApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-sever" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.EurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.EurekaServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,21 +116,21 @@
     </configuration>
     <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ribbon" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.RibbonApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.RibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Sleuth_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sleuth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.Sleuth_Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.Sleuth_Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.SpringBootAdminApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.SpringBootAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,7 +144,7 @@
     </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lovnx.ZuulApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.ZuulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,14 +161,30 @@
       <option name="presentableId" value="Default" />
       <updated>1597740691248</updated>
       <workItem from="1597740697044" duration="11090000" />
-      <workItem from="1597821869110" duration="996000" />
+      <workItem from="1597821869110" duration="1742000" />
     </task>
+    <task id="LOCAL-00001" summary="update 忽略文件">
+      <created>1597823128844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597823128844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 忽略文件" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597823095740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597823095740" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597803787421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,6 +225,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597742563232" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597823134548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597823134548" />
     <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1597822610130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,7 +2,7 @@
 2020-08-18 17:45:32.983 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 2020-08-18 17:45:33.006 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$36402882] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-08-18 17:45:33.007 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
-2020-08-18 17:45:34.272 [main] INFO  com.lovnx.EurekaServer -No active profile set, falling back to default profiles: default
+2020-08-18 17:45:34.272 [main] INFO  com.lecar.EurekaServer -No active profile set, falling back to default profiles: default
 2020-08-18 17:45:34.281 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f270e0a: startup date [Tue Aug 18 17:45:34 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@618b19ad
 2020-08-18 17:45:34.743 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
 2020-08-18 17:45:34.857 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1e683dc0-0069-36b2-9921-18a155ebd659
@@ -120,7 +120,7 @@
 2020-08-18 17:45:39.083 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
 2020-08-18 17:45:39.094 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 7070 (http)
 2020-08-18 17:45:39.095 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration -Updating port to 7070
-2020-08-18 17:45:39.098 [main] INFO  com.lovnx.EurekaServer -Started EurekaServer in 7.767 seconds (JVM running for 9.167)
+2020-08-18 17:45:39.098 [main] INFO  com.lecar.EurekaServer -Started EurekaServer in 7.767 seconds (JVM running for 9.167)
 2020-08-18 17:45:55.876 [http-nio-7070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
 2020-08-18 17:45:55.876 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
 2020-08-18 17:45:55.891 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
