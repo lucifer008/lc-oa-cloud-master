@@ -1,0 +1,13 @@
+/.idea/
+/config-server/target/
+/eureka-sever/target/
+/feign/target/
+/hystrix-dashboard/target/
+/hystrix-feign/target/
+/hystrix-ribbon/target/
+/service-A/target/
+/service-admin/target/
+/service-B/target/
+/service-B2/target/
+/turbine/target/
+/zuul/target/

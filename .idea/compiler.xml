@@ -9,9 +9,9 @@
         <module name="ribbon" />
         <module name="config-server" />
         <module name="sleuth" />
+        <module name="feign" />
         <module name="turbine" />
         <module name="service-admin" />
-        <module name="feign" />
         <module name="zuul" />
         <module name="eureka-sever" />
         <module name="service-B2" />

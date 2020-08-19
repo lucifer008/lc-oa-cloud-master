@@ -77,6 +77,6 @@ spring-cloud 微服务组件demo
 
 联系方式：qq930999349
 
-访问：
+demo 访问：
 
 http://localhost:7073/service-b/add?a=10&b=20

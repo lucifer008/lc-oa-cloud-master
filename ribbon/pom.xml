@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.lovnx</groupId>
-    <artifactId>micro-service</artifactId>
+    <artifactId>lc-oa-cloud-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>ribbon</artifactId>
