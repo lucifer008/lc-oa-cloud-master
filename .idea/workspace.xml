@@ -2,50 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="update 包名调整">
-      <change afterPath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/filter/ServiceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/ServiceFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/lovnx/ConfigApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/classes/com/lovnx/EurekaServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/eureka-sever-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/com/lovnx/RibbonApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/com/lovnx/web/ConsumerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/ribbon-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/classes/com/lovnx/A_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/classes/com/lovnx/web/ComputeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/classes/com/lovnx/web/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/target/service-A-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/service-B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-B/service-B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/classes/mapper/InterfaceLimitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/target/service-B-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-B2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/SecondFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/RequestFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +69,7 @@
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\zuul\src\main\java\com\lecar\filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.B_Application">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="A_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-A" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.A_Application" />
@@ -221,7 +181,7 @@
       <updated>1597740691248</updated>
       <workItem from="1597740697044" duration="11090000" />
       <workItem from="1597821869110" duration="2430000" />
-      <workItem from="1597824429193" duration="6829000" />
+      <workItem from="1597824429193" duration="8755000" />
     </task>
     <task id="LOCAL-00001" summary="update 忽略文件">
       <created>1597823128844</created>
@@ -272,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597827128706</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 包名调整">
+      <created>1597888871424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597888871424</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 包名调整">
+      <created>1597889396931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597889396931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597887303112" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597887361295">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597889396453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597887361295" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597889396453" />
     <state width="510" height="466" key="DebuggerActiveHint" timestamp="1597887626474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,66 +287,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597803787421" />
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.0.bottom" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.0.center" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.0.left" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.0.right" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.1.bottom" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.1.bottom" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.1.center" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
+    <state width="1877" height="670" key="GridCell.Tab.1.center" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.1.left" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.1.left" timestamp="1597892437222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="442" key="GridCell.Tab.1.right" timestamp="1597888725387">
+    <state width="1877" height="670" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437222" />
+    <state width="1877" height="670" key="GridCell.Tab.1.right" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597888725387" />
-    <state width="1877" height="256" key="GridCell.Tab.2.bottom" timestamp="1597887830445">
+    <state width="1877" height="670" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
+    <state width="1877" height="670" key="GridCell.Tab.2.bottom" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597887830445" />
-    <state width="1877" height="256" key="GridCell.Tab.2.center" timestamp="1597887830445">
+    <state width="1877" height="670" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
+    <state width="1877" height="670" key="GridCell.Tab.2.center" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597887830445" />
-    <state width="1877" height="256" key="GridCell.Tab.2.left" timestamp="1597887830445">
+    <state width="1877" height="670" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
+    <state width="1877" height="670" key="GridCell.Tab.2.left" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597887830445" />
-    <state width="1877" height="256" key="GridCell.Tab.2.right" timestamp="1597887830445">
+    <state width="1877" height="670" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
+    <state width="1877" height="670" key="GridCell.Tab.2.right" timestamp="1597892437223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597887830445" />
+    <state width="1877" height="670" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597892437223" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1597887279555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597887279555" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597827130200">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597889398261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597827130200" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1597887802555">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597889398261" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1597889250257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597887802555" />
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597889250257" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,6 +355,11 @@
           <url>file://$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/DruidDataSourceConfig.java</url>
           <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/RequestFilter.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

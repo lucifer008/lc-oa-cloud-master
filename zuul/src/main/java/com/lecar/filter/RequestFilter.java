@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
-public class SecondFilter extends ZuulFilter  {
+public class RequestFilter extends ZuulFilter  {
 
-    private static Logger log = LoggerFactory.getLogger(SecondFilter.class);
+    private static Logger log = LoggerFactory.getLogger(RequestFilter.class);
 
     @Override
     public String filterType() {
@@ -30,19 +30,10 @@ public class SecondFilter extends ZuulFilter  {
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
-        //HttpServletResponse response = ctx.getResponse();
-        
-        log.info("第二级过滤器！");
-        
-        log.info("===============");
-        
 
-        throw new RuntimeException();
+        log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
 
-
-//        log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
-//        System.out.println(request.getRequestURL());
-
+        return null;
     }
 
 }

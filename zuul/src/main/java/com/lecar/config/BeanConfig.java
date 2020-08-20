@@ -1,13 +1,13 @@
 package com.lecar.config;
 
-import com.lecar.filter.ServiceFilter;
+import com.lecar.filter.RequestFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class BeanConfig {
     @Bean
-    public ServiceFilter getServiceFilter(){
-        return new ServiceFilter();
+    public RequestFilter getServiceFilter(){
+        return new RequestFilter();
     }
 }
