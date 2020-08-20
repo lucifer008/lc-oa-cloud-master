@@ -33,11 +33,11 @@
       <module name="ribbon" target="1.7" />
       <module name="service-A" target="1.7" />
       <module name="service-admin" target="1.7" />
-      <module name="service-B" target="1.7" />
+      <module name="service-B" target="8" />
       <module name="service-B2" target="1.7" />
       <module name="sleuth" target="1.7" />
       <module name="turbine" target="1.7" />
-      <module name="zuul" target="1.7" />
+      <module name="zuul" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
