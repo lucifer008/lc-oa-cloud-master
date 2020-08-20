@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="update 包名调整">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/config/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/SecondFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/RequestFilter.java" afterDir="false" />
+    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/filter/RequestFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,7 @@
       <updated>1597740691248</updated>
       <workItem from="1597740697044" duration="11090000" />
       <workItem from="1597821869110" duration="2430000" />
-      <workItem from="1597824429193" duration="8755000" />
+      <workItem from="1597824429193" duration="8826000" />
     </task>
     <task id="LOCAL-00001" summary="update 忽略文件">
       <created>1597823128844</created>
@@ -246,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597889396931</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update 网关Filter">
+      <created>1597892473079</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597892473079</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,17 +272,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 忽略文件" />
     <MESSAGE value="update 包名调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 包名调整" />
+    <MESSAGE value="update 网关Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 网关Filter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1597887303112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597887303112" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597889396453">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597892471739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597889396453" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597892471739" />
     <state width="510" height="466" key="DebuggerActiveHint" timestamp="1597887626474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -339,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597887279555" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597889398261">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597892474509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597889398261" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597892474509" />
     <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1597889250257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
