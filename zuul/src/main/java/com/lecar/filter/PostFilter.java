@@ -7,13 +7,13 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
-public class RequestFilter extends ZuulFilter  {
+public class PostFilter extends ZuulFilter  {
 
-    private static Logger log = LoggerFactory.getLogger(RequestFilter.class);
+    private static Logger log = LoggerFactory.getLogger(PostFilter.class);
 
     @Override
     public String filterType() {
-        return "pre";
+        return "post";
     }
 
     @Override
@@ -31,7 +31,7 @@ public class RequestFilter extends ZuulFilter  {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
 
-        log.info(String.format("-----------------------------%s request to %s------------------------------------->", request.getMethod(), request.getRequestURL().toString()));
+        log.info(String.format("-------------【post】----------------%s request to %s------------------------------------->", request.getMethod(), request.getRequestURL().toString()));
 
         return null;
     }

@@ -35,7 +35,8 @@ public class ErrorFilter extends ZuulFilter  {
         log.info("进入错误异常的过滤器！");
         
         log.info("===============");
-        
+        log.info(String.format("-------------【error】----------------%s request to %s------------------------------------->", request.getMethod(), request.getRequestURL().toString()));
+
 //        log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
 //        System.out.println(request.getRequestURL());
         

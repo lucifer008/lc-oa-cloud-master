@@ -41,6 +41,13 @@ public class ComputeController {
 //          }
 //        }, 0, timeRound);
 //    }
+    @RequestMapping("/hello")
+    public String hello(){
+        if (true) {
+            throw new RuntimeException("自定义异常!");
+        }
+        return " DateTime:"+simpleDateFormat.format(new Date())+" hello!";
+    }
 	SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm.sss");
     @RequestMapping(value = "/add" ,method = RequestMethod.GET)
     public String add(@RequestParam Integer a, @RequestParam Integer b) {

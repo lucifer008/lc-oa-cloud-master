@@ -233,3 +233,187 @@
 2020-08-20 11:00:35.701 [http-nio-7070-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
 2020-08-20 11:00:36.207 [http-nio-7070-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
 2020-08-20 11:00:39.848 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2020-08-20 11:01:39.849 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:02:39.849 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:03:39.850 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:04:39.851 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:05:39.852 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:06:39.852 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:07:38.244 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 6
+2020-08-20 11:07:39.854 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2020-08-20 11:08:39.854 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:09:39.855 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:10:39.855 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:11:39.855 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:12:39.855 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:13:39.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:14:39.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:15:39.857 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 11:15:53.303 [http-nio-7070-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status DOWN (replication=false)
+2020-08-20 13:49:57.979 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5fe94a96: startup date [Thu Aug 20 13:49:57 CST 2020]; root of context hierarchy
+2020-08-20 13:49:58.124 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-08-20 13:49:58.148 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6e7ea67d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 13:49:58.151 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2020-08-20 13:49:59.370 [main] INFO  com.lecar.EurekaServer -No active profile set, falling back to default profiles: default
+2020-08-20 13:49:59.462 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71529963: startup date [Thu Aug 20 13:49:59 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fe94a96
+2020-08-20 13:49:59.971 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-08-20 13:50:00.081 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1e683dc0-0069-36b2-9921-18a155ebd659
+2020-08-20 13:50:00.093 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-08-20 13:50:00.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6e7ea67d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 13:50:00.300 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 7070 (http)
+2020-08-20 13:50:00.305 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2020-08-20 13:50:00.306 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2020-08-20 13:50:00.377 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-08-20 13:50:00.377 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 915 ms
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-20 13:50:00.810 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestTraceFilter' to: [/*]
+2020-08-20 13:50:00.811 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2020-08-20 13:50:00.811 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-08-20 13:50:00.811 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2020-08-20 13:50:00.882 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-20 13:50:00.932 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2020-08-20 13:50:00.933 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2020-08-20 13:50:00.986 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2020-08-20 13:50:00.987 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2020-08-20 13:50:02.326 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2020-08-20 13:50:02.352 [main] INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+2020-08-20 13:50:02.356 [main] INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1597902602356 with initial instances count: 0
+2020-08-20 13:50:02.522 [main] INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+2020-08-20 13:50:02.524 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:7070/eureka/]
+2020-08-20 13:50:03.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2020-08-20 13:50:03.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2020-08-20 13:50:03.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2020-08-20 13:50:03.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2020-08-20 13:50:03.341 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:7070/eureka/
+2020-08-20 13:50:03.346 [main] INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+2020-08-20 13:50:03.347 [main] INFO  c.n.e.DefaultEurekaServerContext -Initialized
+2020-08-20 13:50:03.555 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71529963: startup date [Thu Aug 20 13:49:59 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fe94a96
+2020-08-20 13:50:03.605 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2020-08-20 13:50:03.605 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2020-08-20 13:50:03.607 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-08-20 13:50:03.607 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-08-20 13:50:03.628 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-08-20 13:50:03.628 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-08-20 13:50:03.653 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-08-20 13:50:04.036 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-08-20 13:50:04.036 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-08-20 13:50:04.037 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.037 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-08-20 13:50:04.037 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.038 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2020-08-20 13:50:04.038 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-08-20 13:50:04.039 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-08-20 13:50:04.039 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-08-20 13:50:04.039 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-08-20 13:50:04.039 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.040 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.040 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.041 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2020-08-20 13:50:04.042 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2020-08-20 13:50:04.042 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.042 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.042 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.043 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-08-20 13:50:04.043 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.043 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.043 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.044 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-08-20 13:50:04.044 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-08-20 13:50:04.044 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2020-08-20 13:50:04.210 [main] INFO  o.s.u.f.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71529963: startup date [Thu Aug 20 13:49:59 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fe94a96] and template loader path [classpath:/templates/]
+2020-08-20 13:50:04.210 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-08-20 13:50:04.273 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2020-08-20 13:50:04.273 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 13:50:04.276 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2020-08-20 13:50:04.276 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 13:50:04.325 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-08-20 13:50:04.331 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-08-20 13:50:04.331 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-08-20 13:50:04.333 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-08-20 13:50:04.334 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-08-20 13:50:04.334 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-08-20 13:50:04.335 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-08-20 13:50:04.344 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-08-20 13:50:04.349 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-08-20 13:50:04.355 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=71529963,type=ConfigurationPropertiesRebinder]
+2020-08-20 13:50:04.359 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-08-20 13:50:04.360 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Registering beans for JMX exposure on startup
+2020-08-20 13:50:04.488 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2020-08-20 13:50:04.489 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration -Registering application eureka-server with eureka with status UP
+2020-08-20 13:50:04.489 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+2020-08-20 13:50:04.489 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-08-20 13:50:04.489 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+2020-08-20 13:50:04.491 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2020-08-20 13:50:04.536 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-08-20 13:50:04.551 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+2020-08-20 13:50:04.552 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+2020-08-20 13:50:04.552 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+2020-08-20 13:50:04.552 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+2020-08-20 13:50:04.552 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+2020-08-20 13:50:04.553 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-08-20 13:50:04.555 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-08-20 13:50:04.555 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+2020-08-20 13:50:04.556 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-08-20 13:50:04.558 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-08-20 13:50:04.559 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-08-20 13:50:04.560 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2020-08-20 13:50:04.563 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-08-20 13:50:04.565 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-08-20 13:50:04.566 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-08-20 13:50:04.568 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-08-20 13:50:04.569 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-08-20 13:50:04.570 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-08-20 13:50:04.581 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-7070"]
+2020-08-20 13:50:04.586 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-7070]
+2020-08-20 13:50:04.593 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-08-20 13:50:04.604 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 7070 (http)
+2020-08-20 13:50:04.604 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration -Updating port to 7070
+2020-08-20 13:50:04.606 [main] INFO  com.lecar.EurekaServer -Started EurekaServer in 7.936 seconds (JVM running for 9.364)
+2020-08-20 13:50:05.129 [http-nio-7070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-08-20 13:50:05.129 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2020-08-20 13:50:05.167 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2020-08-20 13:50:05.223 [http-nio-7070-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: ZUUL - DESKTOP-24VNPMN:zuul:7073
+2020-08-20 13:50:05.223 [http-nio-7070-exec-1] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): ZUUL - DESKTOP-24VNPMN:zuul:7073
+2020-08-20 13:50:05.441 [http-nio-7070-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
+2020-08-20 13:50:06.036 [http-nio-7070-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
+2020-08-20 13:50:08.538 [http-nio-7070-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
+2020-08-20 13:50:09.044 [http-nio-7070-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
+2020-08-20 13:51:00.322 [http-nio-7070-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=false)
+2020-08-20 13:51:00.833 [http-nio-7070-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=true)
+2020-08-20 13:51:04.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:51:59.557 [http-nio-7070-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
+2020-08-20 13:52:00.072 [http-nio-7070-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
+2020-08-20 13:52:04.554 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:53:04.554 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:53:59.494 [http-nio-7070-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=false)
+2020-08-20 13:54:00.007 [http-nio-7070-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=true)
+2020-08-20 13:54:04.554 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:55:04.554 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:55:26.888 [http-nio-7070-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
+2020-08-20 13:55:27.398 [http-nio-7070-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
+2020-08-20 13:56:04.554 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:57:04.555 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:58:04.555 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 13:59:04.555 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:00:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:00:48.742 [http-nio-7070-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=false)
+2020-08-20 14:00:49.249 [http-nio-7070-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=true)
+2020-08-20 14:01:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:02:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:02:36.946 [http-nio-7070-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=false)
+2020-08-20 14:02:37.454 [http-nio-7070-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=true)
+2020-08-20 14:03:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:03:47.915 [http-nio-7070-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=false)
+2020-08-20 14:03:48.424 [http-nio-7070-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SERVICE-B/DESKTOP-24VNPMN:service-B:7075 with status UP (replication=true)
+2020-08-20 14:04:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:05:03.346 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 5
+2020-08-20 14:05:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:06:00.633 [http-nio-7070-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=false)
+2020-08-20 14:06:01.141 [http-nio-7070-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance ZUUL/DESKTOP-24VNPMN:zuul:7073 with status UP (replication=true)
+2020-08-20 14:06:04.556 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:07:04.557 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2020-08-20 14:08:04.558 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
