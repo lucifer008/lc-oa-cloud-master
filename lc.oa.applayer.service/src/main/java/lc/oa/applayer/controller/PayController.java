@@ -5,15 +5,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
   *
-  * @Description:     审批
+  * @Description:     支付
   * @Author:         lucifer
-  * @CreateDate:     2020/8/24 11:37
+  * @CreateDate:     2020/8/24 11:44
   * @UpdateUser:
   * @UpdateDate:
   * @UpdateRemark:
   * @Version:        1.0
  */
 @RestController
-@RequestMapping("/approvalService")
-public class ApprovalController {
+@RequestMapping("/payService")
+public class PayController {
+
 }

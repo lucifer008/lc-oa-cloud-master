@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/AchievementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ApprovalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ExpenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/LeaveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MeetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/OutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/admin/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/AchievementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/AchievementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ApprovalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ApprovalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ExpenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ExpenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/LeaveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/LeaveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MeetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MeetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/OutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/OutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/ScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,10 +75,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lc.oa.applayer.admin.controller" />
       <recent name="com.lecar.filter" />
       <recent name="com.lecar.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\lc.oa.applayer.service\src\main\resources" />
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\service-B\src\main\java\com\lecar\filter" />
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\zuul\src\main\java\com\lecar\filter" />
     </key>
@@ -208,7 +218,8 @@
       <workItem from="1597824429193" duration="13927000" />
       <workItem from="1597904740431" duration="6325000" />
       <workItem from="1598236243000" duration="1160000" />
-      <workItem from="1598237855771" duration="1469000" />
+      <workItem from="1598237855771" duration="1596000" />
+      <workItem from="1598239701992" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="update 忽略文件">
       <created>1597823128844</created>
@@ -322,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598237995564</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add 乐卡应用层服务">
+      <created>1598239499823</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598239499823</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,10 +372,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1598237945911" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1598237993417">
+    <state x="816" y="373" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1598240175877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598237993417" />
+    <state x="816" y="373" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598240175877" />
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1598239498452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598239498452" />
     <state width="510" height="466" key="DebuggerActiveHint" timestamp="1597887626474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -366,38 +388,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597803787421" />
-    <state width="1877" height="469" key="GridCell.Tab.0.bottom" timestamp="1598239447730">
+    <state width="1877" height="366" key="GridCell.Tab.0.bottom" timestamp="1598241631553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598239447730" />
-    <state width="1877" height="469" key="GridCell.Tab.0.center" timestamp="1598239447729">
+    <state width="1877" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631553" />
+    <state width="1877" height="366" key="GridCell.Tab.0.center" timestamp="1598241631553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598239447729" />
-    <state width="1877" height="469" key="GridCell.Tab.0.left" timestamp="1598239447729">
+    <state width="1877" height="366" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631553" />
+    <state width="1877" height="366" key="GridCell.Tab.0.left" timestamp="1598241631553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598239447729" />
-    <state width="1877" height="469" key="GridCell.Tab.0.right" timestamp="1598239447730">
+    <state width="1877" height="366" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631553" />
+    <state width="1877" height="366" key="GridCell.Tab.0.right" timestamp="1598241631553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598239447730" />
-    <state width="1877" height="588" key="GridCell.Tab.1.bottom" timestamp="1598237033992">
+    <state width="1877" height="366" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631553" />
+    <state width="1877" height="366" key="GridCell.Tab.1.bottom" timestamp="1598241631551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="588" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598237033992" />
-    <state width="1877" height="588" key="GridCell.Tab.1.center" timestamp="1598237033991">
+    <state width="1877" height="366" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631551" />
+    <state width="1877" height="366" key="GridCell.Tab.1.center" timestamp="1598241631551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="588" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598237033991" />
-    <state width="1877" height="588" key="GridCell.Tab.1.left" timestamp="1598237033991">
+    <state width="1877" height="366" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631551" />
+    <state width="1877" height="366" key="GridCell.Tab.1.left" timestamp="1598241631551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="588" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598237033991" />
-    <state width="1877" height="588" key="GridCell.Tab.1.right" timestamp="1598237033991">
+    <state width="1877" height="366" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631551" />
+    <state width="1877" height="366" key="GridCell.Tab.1.right" timestamp="1598241631551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="588" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598237033991" />
+    <state width="1877" height="366" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598241631551" />
     <state width="1877" height="483" key="GridCell.Tab.2.bottom" timestamp="1597904598353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,26 +436,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="483" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597904598352" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1598239427483">
+    <state x="461" y="162" width="1278" height="716" key="SettingsEditor" timestamp="1598240178020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598239427483" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598237999499">
+    <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598240178020" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598239501235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598237999499" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598236243139">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598239501235" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598236243139" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598239864960" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597905613180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597905613180" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1598237149870">
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1598241448310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598237149870" />
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598241448310" />
     <state x="334" y="129" key="new project wizard" timestamp="1598235180906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
