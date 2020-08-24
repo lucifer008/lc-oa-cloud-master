@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="update 网关Filter">
+    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="update 构建">
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/lc.oa.applayer.service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/AppLayerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/com/lovnx/NotifierConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/com/lovnx/SpringBootAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/service-admin-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +84,23 @@
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\zuul\src\main\java\com\lecar\filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+  <component name="RunManager" selected="Spring Boot.AppLayerApplication">
     <configuration name="A_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-A" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.A_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLayerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lc.oa.applayer.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lc.oa.applayer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lc.oa.applayer.AppLayerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,6 +196,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppLayerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,7 +215,8 @@
       <workItem from="1597740697044" duration="11090000" />
       <workItem from="1597821869110" duration="2430000" />
       <workItem from="1597824429193" duration="13927000" />
-      <workItem from="1597904740431" duration="1456000" />
+      <workItem from="1597904740431" duration="6325000" />
+      <workItem from="1598236243000" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="update 忽略文件">
       <created>1597823128844</created>
@@ -271,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597903745186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update 构建">
+      <created>1597906330039</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597906330039</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,17 +332,18 @@
     <MESSAGE value="update 忽略文件" />
     <MESSAGE value="update 包名调整" />
     <MESSAGE value="update 网关Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 网关Filter" />
+    <MESSAGE value="update 构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 构建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1597887303112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597887303112" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597904565311">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1597916872624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597904565311" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597916872624" />
     <state width="510" height="466" key="DebuggerActiveHint" timestamp="1597887626474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,38 +352,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597803787421" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.0.bottom" timestamp="1598236670047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670047" />
+    <state width="1877" height="588" key="GridCell.Tab.0.center" timestamp="1598236670046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670046" />
+    <state width="1877" height="588" key="GridCell.Tab.0.left" timestamp="1598236670046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670046" />
+    <state width="1877" height="588" key="GridCell.Tab.0.right" timestamp="1598236670046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1597906287639">
+    <state width="1877" height="588" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670046" />
+    <state width="1877" height="588" key="GridCell.Tab.1.bottom" timestamp="1598236670047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287639" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670047" />
+    <state width="1877" height="588" key="GridCell.Tab.1.center" timestamp="1598236670047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1597906287638">
+    <state width="1877" height="588" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670047" />
+    <state width="1877" height="588" key="GridCell.Tab.1.left" timestamp="1598236670047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287638" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1597906287639">
+    <state width="1877" height="588" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670047" />
+    <state width="1877" height="588" key="GridCell.Tab.1.right" timestamp="1598236670047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597906287639" />
+    <state width="1877" height="588" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598236670047" />
     <state width="1877" height="483" key="GridCell.Tab.2.bottom" timestamp="1597904598353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -365,22 +404,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597887279555" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597903746795">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597906332054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597903746795" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1597904977176">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597906332054" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598236243139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597904977176" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598236243139" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597905613180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597905613180" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1597905985352">
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1598235949865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597905985352" />
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598235949865" />
+    <state x="334" y="129" key="new project wizard" timestamp="1598235180906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598235180906" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
