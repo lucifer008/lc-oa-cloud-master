@@ -16,9 +16,28 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/homeService")
 @RestController
 public class HomeController {
+     /**
+      * @method  我的待办
+      * @description 
+      * @date: 2020/8/26 17:58
+      * @author: lucifer
+      * @param 
+      * @return 
+      */
+     @RequestMapping("/my-todo")
     public String myTodo(){
         return null;
     }
+
+     /**
+      * @method  我的消息
+      * @description 
+      * @date: 2020/8/26 17:58
+      * @author: lucifer
+      * @param 
+      * @return 
+      */
+     @RequestMapping("/my-message")
     public String myMessage(){
         return "";
     }
