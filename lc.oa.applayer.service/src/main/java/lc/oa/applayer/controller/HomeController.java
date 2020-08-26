@@ -16,5 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/homeService")
 @RestController
 public class HomeController {
+    public String myTodo(){
+        return null;
+    }
+    public String myMessage(){
+        return "";
+    }
 
 }
