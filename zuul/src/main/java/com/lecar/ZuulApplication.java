@@ -1,6 +1,7 @@
 package com.lecar;
 
 import com.lecar.filter.ErrorFilter;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
@@ -11,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 public class ZuulApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(ZuulApplication.class).web(true).run(args);
+		new SpringApplicationBuilder(ZuulApplication.class).web(WebApplicationType.SERVLET).run(args);
 //		SpringApplication application = new SpringApplication(ZuulApplication.class);
 //		application.setAllowBeanDefinitionOverriding(Boolean.TRUE);
 //		application.addListeners(new ApplicationPidFileWriter());

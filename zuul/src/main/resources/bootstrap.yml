@@ -13,9 +13,11 @@ spring:
       config:
         group: DEFAULT_GROUP
         name: ${spring.application.name}
-        namespace: dev001
-        file-extension: properties
-        shared-dataids: eureka.properties
+        namespace: dev002
+        extensionConfigs:
+          - data-id: eureka.properties
+            group: GLOBAL_GROUP
+            refresh: false
       server-addr: 182.92.221.157:9010
 ---
 spring:

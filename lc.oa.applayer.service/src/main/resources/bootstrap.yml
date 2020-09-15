@@ -13,8 +13,12 @@ spring:
       config:
         group: DEFAULT_GROUP
         name: ${spring.application.name}
-        file-extension: properties
-        namespace: dev001
+        namespace: dev002
+        # 高版本支持
+        extensionConfigs:
+          - data-id: eureka.properties
+            group: GLOBAL_GROUP
+            refresh: false
       server-addr: 182.92.221.157:9010
 ---
 spring:
