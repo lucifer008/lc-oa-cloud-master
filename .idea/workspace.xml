@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="update config server test">
+    <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/test/java/lc/oa/applayer/controller/AchievementControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/classes/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -58,28 +65,52 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="E:/lecar-source/lc.websocket.service" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lc.oa.applayer.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lc.oa.applayer.config" />
       <recent name="lc.oa.applayer.admin.controller" />
       <recent name="com.lecar.filter" />
       <recent name="com.lecar.config" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\service-admin\src\main\resources" />
+      <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\config-server\src\main\resources" />
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\lc.oa.applayer.service\src\main\resources" />
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\lc.oa.applayer.service\target" />
-      <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\config-server\src\main\resources" />
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\zuul\src\main\resources" />
-      <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\lc.oa.applayer.service\src\main\java\lc\oa\applayer\filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppLerApplication_config">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication_Dev">
+    <configuration name="AchievementControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lc.oa.applayer.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lc.oa.applayer.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lc.oa.applayer.controller" />
+      <option name="MAIN_CLASS_NAME" value="lc.oa.applayer.controller.AchievementControllerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="A_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-A" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lecar.A_Application" />
@@ -210,6 +241,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AchievementControllerTest.test" />
       <item itemvalue="Spring Boot.A_Application" />
       <item itemvalue="Spring Boot.B2_Application" />
       <item itemvalue="Spring Boot.B_Application" />
@@ -230,6 +262,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AchievementControllerTest.test" />
         <item itemvalue="Spring Boot.AppLayerApplication" />
       </list>
     </recent_temporary>
@@ -253,7 +286,10 @@
       <workItem from="1598239701992" duration="1888000" />
       <workItem from="1598241948486" duration="35648000" />
       <workItem from="1598515435803" duration="5560000" />
-      <workItem from="1598664688837" duration="3611000" />
+      <workItem from="1598664688837" duration="7204000" />
+      <workItem from="1598941751036" duration="8886000" />
+      <workItem from="1599442633385" duration="1179000" />
+      <workItem from="1599819186079" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="update 忽略文件">
       <created>1597823128844</created>
@@ -479,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598670403840</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update config server test">
+      <created>1598689293997</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1598689293997</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update config server test">
+      <created>1598689363326</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598689363326</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,82 +571,82 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="373" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598240175877" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598669663024">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599462425375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598669663023" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599462425375" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598498278859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598498278859" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1598689293259">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1598689362806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598689293259" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598689362806" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="917" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598511035414" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597803787421">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599012399318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597803787421" />
-    <state width="1877" height="565" key="GridCell.Tab.0.bottom" timestamp="1598689285716">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599012399318" />
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1598950444202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.0.center" timestamp="1598689285716">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598950444202" />
+    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1598950444202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.0.left" timestamp="1598689285716">
+    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598950444202" />
+    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1598950444202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.0.right" timestamp="1598689285716">
+    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598950444202" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1598950444202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.1.bottom" timestamp="1598689285716">
+    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598950444202" />
+    <state width="1877" height="565" key="GridCell.Tab.1.bottom" timestamp="1598941533007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.1.center" timestamp="1598689285716">
+    <state width="1877" height="565" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533007" />
+    <state width="1877" height="565" key="GridCell.Tab.1.center" timestamp="1598941533007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.1.left" timestamp="1598689285716">
+    <state width="1877" height="565" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533007" />
+    <state width="1877" height="565" key="GridCell.Tab.1.left" timestamp="1598941533006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="565" key="GridCell.Tab.1.right" timestamp="1598689285716">
+    <state width="1877" height="565" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533006" />
+    <state width="1877" height="565" key="GridCell.Tab.1.right" timestamp="1598941533007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="565" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598689285716" />
-    <state width="1877" height="385" key="GridCell.Tab.2.bottom" timestamp="1598688825604">
+    <state width="1877" height="565" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533007" />
+    <state width="1877" height="385" key="GridCell.Tab.2.bottom" timestamp="1598941533004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598688825604" />
-    <state width="1877" height="385" key="GridCell.Tab.2.center" timestamp="1598688825604">
+    <state width="1877" height="385" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533004" />
+    <state width="1877" height="385" key="GridCell.Tab.2.center" timestamp="1598941533004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598688825604" />
-    <state width="1877" height="385" key="GridCell.Tab.2.left" timestamp="1598688825604">
+    <state width="1877" height="385" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533004" />
+    <state width="1877" height="385" key="GridCell.Tab.2.left" timestamp="1598941533004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598688825604" />
-    <state width="1877" height="385" key="GridCell.Tab.2.right" timestamp="1598688825604">
+    <state width="1877" height="385" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533004" />
+    <state width="1877" height="385" key="GridCell.Tab.2.right" timestamp="1598941533004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598688825604" />
+    <state width="1877" height="385" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598941533004" />
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor" timestamp="1598240178020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598240178020" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598689295184">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598689364558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598689295184" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598689364558" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598665682844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -605,10 +655,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598668466643" />
-    <state x="636" y="253" width="1040" height="534" key="find.popup" timestamp="1598513857841">
+    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598932955989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="1040" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598513857841" />
+    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598932955989" />
+    <state x="636" y="253" width="1040" height="534" key="find.popup" timestamp="1598692198292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="1040" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598692198292" />
     <state x="334" y="129" key="new project wizard" timestamp="1598235180906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
