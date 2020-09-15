@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: zuul-service
+
+---
+
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        name: ${spring.application.name}
+        namespace: DEV001
+        extensionConfigs:
+          - data-id: eureka.properties
+            group: GLOBAL_GROUP
+            refresh: false
+      server-addr: 182.92.221.157:9010
+---
+spring:
+  profiles: test
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        name: ${spring.application.name}
+        namespace: DEV001
+        extensionConfigs:
+          - data-id: eureka.properties
+            group: GLOBAL_GROUP
+            refresh: false
+      server-addr: 182.92.221.157:9010
+---
