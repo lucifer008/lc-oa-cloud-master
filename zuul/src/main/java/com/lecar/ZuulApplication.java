@@ -12,6 +12,10 @@ public class ZuulApplication {
 
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(ZuulApplication.class).web(true).run(args);
+//		SpringApplication application = new SpringApplication(ZuulApplication.class);
+//		application.setAllowBeanDefinitionOverriding(Boolean.TRUE);
+//		application.addListeners(new ApplicationPidFileWriter());
+//		application.run(args);
 	}
 
 //	@Bean

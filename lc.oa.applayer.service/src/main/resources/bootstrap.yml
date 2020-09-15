@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: applayer-service
+    name: lc.applayerservice
 
 ---
 
@@ -13,11 +13,8 @@ spring:
       config:
         group: DEFAULT_GROUP
         name: ${spring.application.name}
-        namespace: DEV001
-        extensionConfigs:
-          - data-id: eureka.properties
-            group: GLOBAL_GROUP
-            refresh: false
+        file-extension: properties
+        namespace: dev001
       server-addr: 182.92.221.157:9010
 ---
 spring:
@@ -28,6 +25,7 @@ spring:
         group: DEFAULT_GROUP
         name: ${spring.application.name}
         namespace: DEV001
+        # 高版本支持
         extensionConfigs:
           - data-id: eureka.properties
             group: GLOBAL_GROUP

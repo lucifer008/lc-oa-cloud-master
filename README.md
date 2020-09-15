@@ -79,4 +79,4 @@ spring-cloud 微服务组件demo
 
 demo 访问：
 
-http://localhost:7073/service-b/add?a=10&b=20
+http://localhost:7073/lc.applayerservice/test/hello
