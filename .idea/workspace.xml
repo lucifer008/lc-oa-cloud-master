@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/lecar/ConfigApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/applayer-service-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/lovnx-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/lovnx-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/lovnx-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/lovnx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sever/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/application-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/application-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-server-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-server-info-20200818.log.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-A/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598513724291</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="nocas配置中心">
+      <created>1600144354671</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600144354671</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +474,8 @@
     <MESSAGE value="update zuul 增加日志" />
     <MESSAGE value="update app layer config" />
     <MESSAGE value="update config server" />
-    <option name="LAST_COMMIT_MESSAGE" value="update config server" />
+    <MESSAGE value="nocas配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="nocas配置中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="2" key="#ConfigApplication_Dev" timestamp="1600143192177">
@@ -512,10 +502,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600144222413" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1598513723786">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600144353504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598513723786" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600144353504" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -524,62 +514,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597803787421" />
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom" timestamp="1600144291142">
+    <state width="1877" height="385" key="GridCell.Tab.0.bottom" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600144291142" />
-    <state width="1877" height="385" key="GridCell.Tab.0.center" timestamp="1600144291142">
+    <state width="1877" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.0.center" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600144291142" />
-    <state width="1877" height="385" key="GridCell.Tab.0.left" timestamp="1600144291142">
+    <state width="1877" height="385" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.0.left" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600144291142" />
-    <state width="1877" height="385" key="GridCell.Tab.0.right" timestamp="1600144291142">
+    <state width="1877" height="385" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.0.right" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600144291142" />
-    <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.1.center" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.1.center" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.1.left" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.1.left" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.1.right" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.1.right" timestamp="1600144373589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.2.bottom" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373589" />
+    <state width="1877" height="385" key="GridCell.Tab.2.bottom" timestamp="1600144373590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.2.center" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373590" />
+    <state width="1877" height="385" key="GridCell.Tab.2.center" timestamp="1600144373590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.2.left" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373590" />
+    <state width="1877" height="385" key="GridCell.Tab.2.left" timestamp="1600144373590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
-    <state width="1877" height="385" key="GridCell.Tab.2.right" timestamp="1600143596289">
+    <state width="1877" height="385" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373590" />
+    <state width="1877" height="385" key="GridCell.Tab.2.right" timestamp="1600144373590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600143596289" />
+    <state width="1877" height="385" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600144373590" />
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor" timestamp="1598240178020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598240178020" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598513725506">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600144356195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598513725506" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600144356195" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
