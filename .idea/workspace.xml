@@ -4,81 +4,6 @@
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/feign/FeignApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/feign/client/FeignController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/feign/client/TestFeignClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/hystrix_dashboard/HystrixDashboardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/src/main/java/com/feign_hystrix/FeignHystrixApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/src/main/java/com/feign_hystrix/feign/FeignController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/src/main/java/com/feign_hystrix/feign/TestFeignClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-feign/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/src/main/java/com/hystrix/HystrixApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/src/main/java/com/hystrix/normal/HystrixController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/src/main/java/com/hystrix/normal/HystrixService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-ribbon/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/lecar/RibbonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/lecar/web/ConsumerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/java/com/lecar/A_Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/java/com/lecar/web/ComputeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/java/com/lecar/web/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-A/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/B_Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/BeanConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/DataSourceProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/DruidDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/config/SqlSessionFactoryConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/entity/InterfaceLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/entity/InterfaceLimitExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/filter/ServiceFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/mapper/InterfaceLimitMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/service/InterfaceLimitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/service/impl/InterfaceLimitServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/test/ApiCallDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/test/ListenableFutureDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/test/mytst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/web/ComputeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/web/RateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/java/com/lecar/web/RedisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B/src/main/resources/mapper/InterfaceLimitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/src/main/java/com/lecar/B2_Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/src/main/java/com/lecar/web/ComputeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-B2/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/src/main/java/com/lecar/NotifierConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/src/main/java/com/lecar/SpringBootAdminApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/src/main/java/com/lecar/Sleuth_Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth/src/test/java/org/sleuth/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/src/main/java/com/turbine/TurbineApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lecar/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -511,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600150375494</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="nocas配置中心">
+      <created>1600160170680</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1600160170680</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,10 +501,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600150304514" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600150374578">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600160168816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600150374578" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600160168816" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -633,10 +565,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598240178020" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600150377117">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600160172542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600150377117" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600160172542" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
