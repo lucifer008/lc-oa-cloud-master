@@ -16,7 +16,7 @@ spring:
         namespace: dev002
         extensionConfigs:
           - data-id: eureka.properties
-            group: GLOBAL_GROUP
+            group: DEFAULT_GROUP
             refresh: false
       server-addr: 182.92.221.157:9010
 ---
@@ -31,7 +31,7 @@ spring:
         # 高版本支持
         extensionConfigs:
           - data-id: eureka.properties
-            group: GLOBAL_GROUP
+            group: DEFAULT_GROUP
             refresh: false
       server-addr: 182.92.221.157:9010
 ---
