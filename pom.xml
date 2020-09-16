@@ -9,6 +9,7 @@
     <module>eureka-sever</module>
     <module>zuul</module>
       <module>lc.oa.applayer.service</module>
+      <module>gateway-server</module>
   </modules>
   
   	<parent>

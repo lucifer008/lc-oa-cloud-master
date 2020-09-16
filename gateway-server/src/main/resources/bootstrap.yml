@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: zuul-service
+    name: gateway-service
 
 ---
 
@@ -18,6 +18,7 @@ spring:
           - data-id: eureka.properties
             group: DEFAULT_GROUP
             refresh: false
+        file-extension: yml
       server-addr: 182.92.221.157:9010
 ---
 spring:
