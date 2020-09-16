@@ -1,7 +1,7 @@
 ![image](https://img.shields.io/badge/Spring%20Cloud-%E2%98%85%E2%98%85%E2%98%85-green.svg)
 ![image](https://img.shields.io/badge/Netflix-%E2%98%85%E2%98%85%E2%98%85-red.svg)
 
-spring-cloud 微服务组件demo
+spring-cloud+springboot+zuul+eureka-server 微服务组件demo
 ===
 
 ![image](http://img.blog.csdn.net/20171018201759315?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcmlja2l5ZWF0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -17,11 +17,54 @@ spring-cloud 微服务组件demo
 <tr>
 <td>zuul</td>  <td>动态路由器</td>  <td>7073</td>
 </tr>
-
+<tr>
+<td>lc.oa.applayer.service</td>  <td>业务服务</td>  <td>6008</td>
+</tr>
 </tbody></table>
+nacos配置 <br>
+<table style="border-collapse: collapse" border="1">
+<tbody><tr>
+<td>文件名</td>  <td>配置内容</td> 
+</tr>
+<tr>
+<td>zuul-service-dev.properties</td>  
+<td>spring.application.name=zuul
+    server.port=7073
+    
+    # routes to serviceId
+    
+    zuul.routes.api-b.path=/lc.applayerservice/**
+    zuul.routes.api-b.serviceId=lc.applayerservice
+    
+    # routes to url
+    zuul.routes.api-a-url.path=/api-a-url/**
+    zuul.routes.api-a-url.url=http://localhost:7074/
+</td>  
+</tr>
 
-环境：JDK1.8
-组件依赖版本：Camden.SR5
+<tr>
+<td>	
+lc.applayerservice-dev.properties</td>  <td>spring.application.name=lc.applayerservice
+                                            server.port=6008
+</td>  
+</tr>
+<tr>
+<td>eureka.properties</td>  <td>#表示是否将自己注册到Eureka Server
+                                eureka.client.register-with-eureka=true
+                                
+                                #表示是否从Eureka Server获取注册信息
+                                #eureka.client.fetch-registry=true
+                                eureka.client.registryFetchIntervalSeconds=10
+                                eureka.client.registerWithEureka=true
+                                eureka.client.fetchRegistry=true
+                                eureka.instance.preferIpAddress=true
+                                #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。
+                                # 默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔
+                                eureka.client.serviceUrl.defaultZone=http://localhost:7070/eureka/
+                                #spring.cloud.nacos.config.server-addr=182.92.221.157:9010</td>
+</tr>
+</tbody></table>
+环境：JDK1.8，spring boot 2.0版本以上
 
 ```
  <properties>
