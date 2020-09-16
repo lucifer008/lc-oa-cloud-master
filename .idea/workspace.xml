@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,11 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600164917477</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="nocas配置中心spring boot 2.0版本">
+      <created>1600241830042</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1600241830042</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -402,7 +417,8 @@
     <MESSAGE value="update config server" />
     <MESSAGE value="nocas配置中心" />
     <MESSAGE value="nocas配置中心2.0版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="nocas配置中心2.0版本" />
+    <MESSAGE value="nocas配置中心spring boot 2.0版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="nocas配置中心spring boot 2.0版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="2" key="#ConfigApplication_Dev" timestamp="1600143192177">
@@ -429,10 +445,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600150304514" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600164916416">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600241828707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600164916416" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600241828707" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -493,10 +509,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598240178020" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600164918884">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600241832425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600164918884" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600241832425" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

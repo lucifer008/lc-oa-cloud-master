@@ -29,6 +29,7 @@ spring-cloud 微服务组件demo
     <java.version>1.8</java.version>
   </properties>
 ```
+spring boot 2.0版本
 
 demo 访问：
 
