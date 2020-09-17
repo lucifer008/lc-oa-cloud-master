@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/lecar/config/RouterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/lecar/config/RouterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -464,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600326280623</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="gateway router eureka配置">
+      <created>1600326895442</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1600326895442</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +515,8 @@
     <MESSAGE value="nocas配置中心spring boot 2.0版本" />
     <MESSAGE value="nocas配置中心spring boot 2.0版本+gateway" />
     <MESSAGE value="全局filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="全局filter" />
+    <MESSAGE value="gateway router eureka配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway router eureka配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="2" key="#ConfigApplication_Dev" timestamp="1600143192177">
@@ -544,10 +551,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600150304514" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600326279548">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600326894202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326279548" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326894202" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -556,62 +563,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600246311178" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1600326813322">
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1600327453560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813322" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1600326813322">
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453560" />
+    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1600327453560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813322" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1600326813321">
+    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453560" />
+    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1600327453560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813321" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1600326813322">
+    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453560" />
+    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1600327453560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813322" />
-    <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453560" />
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
-    <state width="1877" height="395" key="GridCell.Tab.1.center" timestamp="1600326813182">
+    <state width="1877" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.1.center" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813182" />
-    <state width="1877" height="395" key="GridCell.Tab.1.left" timestamp="1600326813182">
+    <state width="1877" height="395" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.1.left" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813182" />
-    <state width="1877" height="395" key="GridCell.Tab.1.right" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.1.right" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
-    <state width="1877" height="395" key="GridCell.Tab.2.bottom" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.2.bottom" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
-    <state width="1877" height="395" key="GridCell.Tab.2.center" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.2.center" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
-    <state width="1877" height="395" key="GridCell.Tab.2.left" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.2.left" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
-    <state width="1877" height="395" key="GridCell.Tab.2.right" timestamp="1600326813183">
+    <state width="1877" height="395" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
+    <state width="1877" height="395" key="GridCell.Tab.2.right" timestamp="1600327453389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600326813183" />
+    <state width="1877" height="395" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327453389" />
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor" timestamp="1600311574007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600311574007" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600326282428">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600326897244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326282428" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326897244" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
