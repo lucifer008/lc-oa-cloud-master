@@ -35,6 +35,12 @@ public class RouterConfig {
         return builder.routes()
                 .route("path_route", r -> r.path("/get")
                         .uri("http://httpbin.org"))
+
+                //lc.applayerservice 服务无上下文路径，需要重写路径
+                .route("lc.applayerservice_path_route", r -> r.path("/lc.applayerservice/**")
+                        .filters(f->f.rewritePath("/lc.applayerservice",""))
+                        .uri("http://localhost:6008"))
+
                 .route("host_route", r -> r.host("*.myhost.org")
                         .uri("http://httpbin.org"))
                 .route("rewrite_route", r -> r.host("*.rewrite.org")
