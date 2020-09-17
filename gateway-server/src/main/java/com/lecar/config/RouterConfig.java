@@ -42,24 +42,24 @@ public class RouterConfig {
                         .uri("http://localhost:6008"))
 //                .route("ribbon_route",r ->r.path("/lc.applayerservice2/**").uri("lb://lc.applayerservice")
 //                )
-                .route("host_route", r -> r.host("*.myhost.org")
-                        .uri("http://httpbin.org"))
-                .route("rewrite_route", r -> r.host("*.rewrite.org")
-                        .filters(f -> f.rewritePath("/foo/(?<segment>.*)",
-                                "/${segment}"))
-                        .uri("http://httpbin.org"))
-                .route("hystrix_route", r -> r.host("*.hystrix.org")
-                        .filters(f -> f.hystrix(c -> c.setName("slowcmd")))
-                        .uri("http://httpbin.org"))
-                .route("hystrix_fallback_route", r -> r.host("*.hystrixfallback.org")
-                        .filters(f -> f.hystrix(c -> c.setName("slowcmd").setFallbackUri("forward:/hystrixfallback")))
-                        .uri("http://httpbin.org"))
-                .route("limit_route", r -> r
-                        .host("*.limited.org").and().path("/anything/**")
-                        .filters(f -> f.requestRateLimiter(c -> c.setRateLimiter(redisRateLimiter())))
-                        .uri("http://httpbin.org"))
-                .route("websocket_route", r -> r.path("/echo")
-                        .uri("ws://localhost:9000"))
+//                .route("host_route", r -> r.host("*.myhost.org")
+//                        .uri("http://httpbin.org"))
+//                .route("rewrite_route", r -> r.host("*.rewrite.org")
+//                        .filters(f -> f.rewritePath("/foo/(?<segment>.*)",
+//                                "/${segment}"))
+//                        .uri("http://httpbin.org"))
+//                .route("hystrix_route", r -> r.host("*.hystrix.org")
+//                        .filters(f -> f.hystrix(c -> c.setName("slowcmd")))
+//                        .uri("http://httpbin.org"))
+//                .route("hystrix_fallback_route", r -> r.host("*.hystrixfallback.org")
+//                        .filters(f -> f.hystrix(c -> c.setName("slowcmd").setFallbackUri("forward:/hystrixfallback")))
+//                        .uri("http://httpbin.org"))
+//                .route("limit_route", r -> r
+//                        .host("*.limited.org").and().path("/anything/**")
+//                        .filters(f -> f.requestRateLimiter(c -> c.setRateLimiter(redisRateLimiter())))
+//                        .uri("http://httpbin.org"))
+//                .route("websocket_route", r -> r.path("/echo")
+//                        .uri("ws://localhost:9000"))
                 .build();
         //@formatter:on
     }

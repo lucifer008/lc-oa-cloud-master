@@ -36,6 +36,7 @@ spring:
             refresh: false
       server-addr: 182.92.221.157:9010
 ---
+#eureka 负载配置,此部分可以配置到nacos中
 spring:
   cloud:
     gateway:
@@ -44,7 +45,11 @@ spring:
           enabled: false
           lower-case-service-id: true
       routes:
-      - id: LC.APPLAYERSERVICE
+      - id: LC.APPLAYERSERVICE2
+        #注册中心id
         uri: lb://LC.APPLAYERSERVICE
         predicates:
           - Path=/lc.applayerservice2/**
+        #转发去掉lc.applayerservice2 前缀
+        filters:
+          - StripPrefix=1
