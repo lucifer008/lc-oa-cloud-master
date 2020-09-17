@@ -21,6 +21,22 @@ spring:
             refresh: false
       server-addr: 182.92.221.157:9010
 ---
+
+spring:
+  profiles: dev2
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        name: ${spring.application.name}
+        namespace: dev002
+        # 高版本支持
+        extensionConfigs:
+          - data-id: eureka.properties
+            group: DEFAULT_GROUP
+            refresh: false
+      server-addr: 182.92.221.157:9010
+---
 spring:
   profiles: test
   cloud:
