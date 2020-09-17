@@ -97,5 +97,7 @@ zuul demo 访问：
 http://localhost:7073/lc.applayerservice/test/hello
 
 gateway demo 访问
-
+1>.路径重写
 http://localhost:60011/lc.applayerservice/test/hello
+2>.eureka负载
+http://localhost:60011/lc.applayerservice2/test/hello

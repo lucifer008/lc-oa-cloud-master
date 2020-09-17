@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90296194-f101-4313-b38d-5654de15a72f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc.oa.applayer.service/src/main/java/lc/oa/applayer/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,16 @@
       <recent name="E:\java-opensource\spring-cloud-demo-master\lc-oa-cloud-master\lc.oa.applayer.service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+  <component name="RunManager" selected="Spring Boot.AppLayerService (dev2)">
+    <configuration name="AppLayerService (dev2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lc.oa.applayer.service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lc.oa.applayer.AppLayerApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppLayerService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lc.oa.applayer.service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lc.oa.applayer.AppLayerApplication" />
@@ -119,6 +128,7 @@
       <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.AppLayerService" />
+      <item itemvalue="Spring Boot.AppLayerService (dev2)" />
       <item itemvalue="Spring Boot.GatewayServerApplication" />
     </list>
   </component>
@@ -470,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600326895442</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="gateway router eureka配置">
+      <created>1600327486812</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1600327486812</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,10 +552,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="373" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598240175877" />
-    <state x="306" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600248600772">
+    <state x="306" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600327554687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="306" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600248600772" />
+    <state x="306" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600327554687" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1600322645092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -551,10 +568,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600150304514" />
-    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600326894202">
+    <state x="411" y="113" key="CommitChangelistDialog2" timestamp="1600327484845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326894202" />
+    <state x="411" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600327484845" />
     <state width="917" height="466" key="DebuggerActiveHint" timestamp="1598511035414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -615,10 +632,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" width="1278" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600311574007" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600326897244">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600327488361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600326897244" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600327488361" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1598239864960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
