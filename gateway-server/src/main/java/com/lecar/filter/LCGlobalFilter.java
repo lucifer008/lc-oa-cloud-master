@@ -14,8 +14,10 @@ public class LCGlobalFilter implements GlobalFilter, Ordered {
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-        log.info("custom global filter------------------------->");
-        return chain.filter(exchange);
+        log.info("--------------------【global filter】----------begin--------------->");
+        Mono<Void> mono= chain.filter(exchange);
+        log.info("<--------------------【global filter】----------end---------------");
+        return  mono;
     }
 
     @Override

@@ -40,7 +40,8 @@ public class RouterConfig {
                 .route("lc.applayerservice_path_route", r -> r.path("/lc.applayerservice/**")
                         .filters(f->f.rewritePath("/lc.applayerservice",""))
                         .uri("http://localhost:6008"))
-
+//                .route("ribbon_route",r ->r.path("/lc.applayerservice2/**").uri("lb://lc.applayerservice")
+//                )
                 .route("host_route", r -> r.host("*.myhost.org")
                         .uri("http://httpbin.org"))
                 .route("rewrite_route", r -> r.host("*.rewrite.org")

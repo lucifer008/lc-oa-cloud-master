@@ -36,3 +36,15 @@ spring:
             refresh: false
       server-addr: 182.92.221.157:9010
 ---
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lower-case-service-id: true
+      routes:
+      - id: LC.APPLAYERSERVICE
+        uri: lb://LC.APPLAYERSERVICE
+        predicates:
+          - Path=/lc.applayerservice2/**
