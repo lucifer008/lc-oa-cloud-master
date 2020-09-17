@@ -18,7 +18,10 @@ spring-cloud+springboot+zuul+eureka-server 微服务组件demo
 <td>zuul</td>  <td>动态路由器</td>  <td>7073</td>
 </tr>
 <tr>
-<td>lc.oa.applayer.service</td>  <td>业务服务</td>  <td>6008</td>
+<td>lc.oa.applayer.service</td>  <td>模拟业务服务</td>  <td>6008</td>
+</tr>
+<tr>
+<td>gateway-server</td>  <td>gateway网关，作用同zuul</td>  <td>60011</td>
 </tr>
 </tbody></table>
 nacos配置 <br>
@@ -49,7 +52,8 @@ lc.applayerservice-dev.properties</td>  <td>spring.application.name=lc.applayers
 </td>  
 </tr>
 <tr>
-<td>eureka.properties</td>  <td>#表示是否将自己注册到Eureka Server
+<td>eureka.properties</td>  
+<td>#表示是否将自己注册到Eureka Server
                                 eureka.client.register-with-eureka=true
                                 
                                 #表示是否从Eureka Server获取注册信息
@@ -61,7 +65,21 @@ lc.applayerservice-dev.properties</td>  <td>spring.application.name=lc.applayers
                                 #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。
                                 # 默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔
                                 eureka.client.serviceUrl.defaultZone=http://localhost:7070/eureka/
-                                #spring.cloud.nacos.config.server-addr=182.92.221.157:9010</td>
+                                #spring.cloud.nacos.config.server-addr=182.92.221.157:9010
+</td>
+</tr>
+<tr>
+<td>gateway-service-dev.yml</td>  <td>spring:
+                                        application:
+                                          name: gateway-service
+                                      server:
+                                        port: 60011
+                                      ribbon:
+                                        eager-load:
+                                          enabled: true
+                                        #多个服务以逗号分隔
+                                        clients: lc.applayerservice
+                                        </td>
 </tr>
 </tbody></table>
 环境：JDK1.8，spring boot 2.0版本以上
@@ -74,6 +92,10 @@ lc.applayerservice-dev.properties</td>  <td>spring.application.name=lc.applayers
 ```
 spring boot 2.0版本
 
-demo 访问：
+zuul demo 访问：
 
 http://localhost:7073/lc.applayerservice/test/hello
+
+gateway demo 访问
+
+http://localhost:60011/lc.applayerservice/test/hello
