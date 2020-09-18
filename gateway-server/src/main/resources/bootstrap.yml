@@ -53,3 +53,9 @@ spring:
         #转发去掉lc.applayerservice2 前缀
         filters:
           - StripPrefix=1
+          #熔断处理
+          - name: Hystrix
+            args:
+              name: fallbackCmdA
+              fallbackUri: forward:/fallbackA
+hystrix.command.fallbackCmdA.execution.isolation.thread.timeoutInMilliseconds: 5000

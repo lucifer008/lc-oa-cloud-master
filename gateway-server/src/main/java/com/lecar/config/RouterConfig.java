@@ -19,6 +19,7 @@ import org.springframework.stereotype.Component;
  **/
 @Configuration
 public class RouterConfig {
+
     /**
      * @method  路由
      * @description

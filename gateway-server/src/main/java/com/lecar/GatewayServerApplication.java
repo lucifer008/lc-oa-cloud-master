@@ -1,5 +1,7 @@
 package com.lecar;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -42,6 +44,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableFeignClients
 @RestController
 @SpringBootApplication
+//@HystrixCommand(fallbackMethod = "otaCheckUpdateFallback", commandProperties = {@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000"),}, threadPoolProperties = { @HystrixProperty(name = "coreSize", value = "100"),@HystrixProperty(name = "maxQueueSize", value = "20"),@HystrixProperty(name = "queueSizeRejectionThreshold", value = "20")})
 public class GatewayServerApplication {
     @RequestMapping("/hystrixfallback")
     public String hystrixfallback() {
